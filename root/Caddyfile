@@ -1,0 +1,7 @@
+:9000
+
+log / stdout "{combined} {upstream}"
+
+proxy /middle localhost:9001 {
+  without /middle
+}

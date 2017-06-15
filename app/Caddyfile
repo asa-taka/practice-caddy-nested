@@ -1,0 +1,3 @@
+:9002
+
+log / stdout "{combined} {upstream}"

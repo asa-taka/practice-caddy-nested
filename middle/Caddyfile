@@ -1,0 +1,7 @@
+:9001
+
+log / stdout "{combined}"
+
+proxy /app localhost:9002 {
+  without /app
+}
